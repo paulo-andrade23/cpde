@@ -1,0 +1,513 @@
+<html lang="pt" class="translated-ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+      - primary meta tags
+    -->
+  <title>Mercado Online Seção Enlatados, molhos, sacher</title>
+  <meta name="title" content="Mercado Online">
+  <meta name="description" content="A forma mais fácil de você fazer compras, sem sair de casa, com apenas um celular ou um computador">
+
+  <!-- 
+      - favicon
+    -->
+  <link rel="shortcut icon" href="./icone.png" type="image/svg+xml">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./assets/js/menu.js"></script>
+
+  <!-- 
+      - google font link
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+
+  <!-- 
+      - custom css link
+    -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/carrinho.css">
+  <link rel="stylesheet" href="assets/css/rest.css">
+
+  
+  <script src="./assets/js2/main.js" defer=""></script>
+  <script src="./assets/js2/cart.js" defer=""></script>
+  <script src="./assets/js/global.js" defer=""></script>
+  <script src="./assets/js/index.js" type="module"></script>
+  
+
+  <link type="text/css" rel="stylesheet" charset="UTF-8"
+    href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.69JJaQ5G5xA.L.W.O/d=0/rs=AN8SPfpC36MIoWPngdVwZ4RUzeJYZaC7rg/m=el_main_css">
+</head>
+
+
+
+<header class="header">
+
+    <a href="./index.html" class="logo">
+      <img src="logo_nome_principal.png" style="width: 200px" height="32" alt="Logo" class="logo">
+     
+    </a>
+
+    <!--BARRA DE PESQUISA
+
+      <div class="search-box" search-box="">
+      <div class="search-wrapper" search-wrapper="">
+        <input type="text" name="search" aria-label="pesquisar filmes" placeholder="Pesquise o produto"
+          class="search-field" autocomplete="off" search-field="">
+
+        <img src="./assets/images/search.png" width="24" height="24" alt="procurar" class="leading-icon">
+      </div>
+
+      <button class="search-btn" search-toggler="">
+        <img src="./assets/images/close.png" width="24" height="24" alt="fechar caixa de pesquisa">
+      </button>
+    </div>-->
+    
+    <div class="cart-btn">
+    <button class="menu-carrinho" id="cart-icon" data-quantity="0">
+      <img src="./assets/images/carrinho-comprar.png"  width="24" height="24" alt="abrir menu" class="carrinho" >
+    </button>
+
+      </div>
+
+    <!--
+      <button class="search-btn" search-toggler=""="">
+      <img src="./assets/images/search.png" width="24" height="24" alt="caixa de pesquisa aberta">
+    </button>
+  -->
+  
+
+    <button class="menu-btn" menu-btn="" menu-toggler="">
+      <img src="./assets/images/menuabrir.png" width="24" height="24" alt="open menu" class="menu">
+      <img src="./assets/images/closemeniu.png" width="24" height="24" alt="close menu" class="close">
+    </button>
+
+
+  </header>
+
+
+  
+  <!-- Cart Icon -->
+  <!-- cart -->
+  <div class="cart">
+    <div>
+    <h2 class="cart-title">Carrinho de Compras</h2>
+    <!-- Content -->
+    <div class="cart-content"></div>
+    <!-- Total -->
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">$0</div>
+    </div>
+    <!-- Buy Button -->
+    <button type="button" class="btn-buy"><b>Pagar via Cartão</b> <i class="fa fa-credit-card-alt"></i></button>
+    <button type="button" class="btn-buy-pix"><b>Pagar via Pix</b> <i class="fa fa-qrcode"></i></button>
+    <!-- Close Cart -->
+    <i class="fa fa-close" id="close-cart"></i>
+    </div>
+  </div>
+</div>
+<body>
+
+<main>
+
+
+
+  
+  <nav class="sidebar" sidebar="">
+    <div class="sidebar-inner">
+
+  <div class="sidebar-list">
+
+  <div id="navs" >
+
+
+      <p class="title">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Seções</font>
+        </font>
+      </p>
+      <ul>
+      <li><a href="alimentos.html">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Alimentos</font>
+        </font>
+      </a></li>
+
+      <li><a href="" >
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Cereais</font>
+        </font>
+      </a></li>
+
+      <li><a href="enlatados.html">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Enlatados & Sachers</font>
+        </font>
+      </a></li>
+
+     <li> <a href="bolo.html">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Seção Bolo</font>
+        </font>
+      </a></li>
+
+      <li><a href="kids.html">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Seção Kids</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="" >
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+
+      <li><a href="">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Produtos</font>
+        </font>
+      </a></li>
+      </ul>
+        <div class="sidebar-footer">
+
+      </div>
+    </div>
+  
+</nav>
+<div class="overlay" overlay="" menu-toggler=""></div>
+
+
+
+
+
+
+<article class="container" page-content="">
+
+    <!-----*-*-*-*-*-*-*-*--*-*--*-*--*-*-*-*-*-*- seção 1-*-*-*-*-*--*-*-*-*-*-*-*--*-*-*-*--*--->      
+    <div class="voltar">
+      <a href="index.html">
+        <h1 class="title-large">
+        <i class="fa fa-angle-left"><font style="vertical-align: inherit;">
+        <b>Voltar</b></font></i>
+      </h1></a></div>
+
+    <section class="movie-list" aria-label="Produtos para crianças">
+        <div class="title-wrapper">
+          <h3 class="title-large">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Seção Kids</font>
+            </font>
+          </h3>
+        </div>
+       
+          <div class="slider-list">
+            <div class="slider-inner">
+        
+              <div class="movie-card">
+        
+             <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/frauda_pampes.jpg" alt="fralda" class="img-cover product-img" loading="lazy">
+                </figure>
+        
+        
+              <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Fralda Pampers 20un Tamanho M</font>
+                </h4><br><br>
+                <div class="meta-list">
+                  <div class="meta-item">
+        
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 24.99</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+        
+                    <button class="add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>
+                    
+                  </div>
+                </div>
+        
+              </div>
+              
+              <div class="movie-card">
+                <figure class="poster-box card-banner  product-box">
+                  <img src="assets/images/fralda_huggies.png"
+                    alt="fralda" class="img-cover product-img" loading="lazy">
+                </figure>
+        
+                <h4 class="title  product-title">
+                    <font style="vertical-align: inherit;">Fralda Huggles 20un Tamanho M</font>
+                </h4><br><br>
+        
+                <div class="meta-list">
+                  <div class="meta-item">
+        
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 23.49</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+                    <button class="add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>
+                  </div>
+                </div>
+        
+              </div>
+        
+        
+              <div class="movie-card">
+                <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/fralda_cremer.jpg" alt="fralda" class="img-cover product-img"
+                    loading="lazy">
+                </figure>
+        
+                <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Fralda Cremer 20un Tamanho M</font>
+                </h4><br><br>
+        
+                <div class="meta-list">
+                  <div class="meta-item">
+        
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 22.59</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+                    <button class="add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="movie-card">
+                <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/fralda_mamypoko.png"
+                    alt="fralda" class="img-cover product-img" loading="lazy">
+                </figure>
+        
+                <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Fralda e Calça MamyPoko Tamanho xG 15un</font>
+                </h4><br>
+                <div class="meta-list">
+                  <div class="meta-item">
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 21.29</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+                    <button class=" add-cart ">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="movie-card">
+                <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/lenço_imudecido_babysec.png" alt="Lenço"
+                    class="img-cover product-img" loading="lazy">
+                </figure>
+        
+                <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Lenço Umidecido em pote por:</font>
+                </h4><br><br>
+        
+                <div class="meta-list">
+                  <div class="meta-item">
+        
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 8.99</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">                  
+                    <button class=" add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>  
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="movie-card">
+                <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/pomada_hipoglos.jpg"
+                    alt="Lenço" class="img-cover product-img" loading="lazy">
+                </figure>
+        
+                <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Pomada Hipoglos Para Prevenção de Assaduras 30g</font>
+                </h4><br>
+        
+                <div class="meta-list">
+                  <div class="meta-item">
+        
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 17.99</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+                    <button class=" add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="movie-card">
+                <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/pomada_hipogloss.jpg" alt="Café em pó 3 Corações"
+                    class="img-cover product-img" loading="lazy">
+                </figure>
+                <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Pomada Hipoglos Para Prevenção de Assaduras 45g</font>
+                </h4><br><br>
+        
+                <div class="meta-list">
+                  <div class="meta-item">
+        
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 12.89</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+                    <button class=" add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>  
+                  </div>
+                </div>
+              </div>
+        
+        
+              <div class="movie-card">
+                <figure class="poster-box card-banner product-box">
+                  <img src="assets/images/pomada_desitim.png"
+                    alt="Leite Camponesa" class="img-cover product-img" loading="lazy">
+                </figure>
+        
+                <h4 class="title product-title">
+                    <font style="vertical-align: inherit;">Pomada Desistin Baby & Kids 45g</font>
+                </h4><br><br>
+        
+                <div class="meta-list">
+                  <div class="meta-item">
+                    <span class="span price">
+                        <font style="vertical-align: inherit;">R$ 20.99</font>
+                    </span>
+                  </div><br>
+        
+                  <div class="card-badge">
+                    <button class=" add-cart">
+                      <i class="fa fa-cart-arrow-down"></i>
+                      <font style="vertical-align: inherit;">Adicionar</font>
+                    </button>  
+                  </div>
+                </div>
+              </div>
+        
+        
+            
+              
+    
+            
+            
+
+        
+      </div>
+      </div>
+      </section>
+        
+      <section class="footer">
+        <h4>Compartilhe!</h4>
+            <p>Somos uma empresa séria, que se dedica a fazer o<br>melhor
+                para os nossos clientes.</p>
+      
+      
+        <div class="icons">
+            <div class="icons-box">
+              <a href="https://wa.me/?text=Compre%20online%20no%20novo%20SuperMercado%20Digital%20do%20Recife%20e%20região.%20Aproveite!%20https://peojetomercado.netlify.app/" target="_blank"><i class="fa fa-whatsapp"></i>
+              </a>
+            </div>
+      
+            <div class="icons-box">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://planetauniverso.netlify.app/" target="_blank"><i class="fa fa-facebook-official"></i>
+              </a>
+            </div>
+      
+            <div class="icons-box">
+                <a href="https://twitter.com/intent/tweet?text=Compre%20Online%20no%20novo%20SuperMercado%20digital%20do%20Recife%20e%20Região.%20Aproveite! https://projetomercado.netlify.app/" target="_blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="icons-box">
+                <a href="https://t.me/share/url?url=https://planetauniverso.netlify.app/&text=Compre online no novo SuperMercado digital do Recife. Aproveite!" target="_blank"><i class="fa fa-telegram"></i></a>
+            </div>
+           
+          </div>
+      </section>
+</article>
+</main>
+</body>
+</html>
